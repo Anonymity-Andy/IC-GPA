@@ -10,7 +10,7 @@ password = input('请输入你的密码：')
 
 headers = {
     'Host': 'ams.bhsfic.com',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
+    'User-Agent': , #填你自己的
     'Referer': 'http://ams.bhsfic.com/system/login',
     'Origin': 'http://ams.bhsfic.com',
 }
@@ -28,7 +28,7 @@ if ams.text != website and ams.status_code == 200:
 
     headers = {
         'Referer': 'http://ams.bhsfic.com/student/calendar/calendarPage',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
+        'User-Agent': , # 填你自己的
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     }
 
